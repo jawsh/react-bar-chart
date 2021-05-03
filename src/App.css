@@ -10,7 +10,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-}
-
-.age {
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-bottom: 1vh;
 }
