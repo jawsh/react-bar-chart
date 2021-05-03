@@ -143,14 +143,14 @@ function App() {
                 {chart === "Age" ? (
                     <>
                         <div className="age">
-                            <Bar data={getAgeData} options={options} height={450} width={900}></Bar>
+                            <Bar data={getAgeData} options={options}></Bar>
                             <h3>Oldest: {getAgeStats()}</h3>
                         </div>
                     </>
                 ) : (
                     <>
                         <div className="age">
-                            <Bar data={getSalaryData} options={options} height={450} width={900}></Bar>
+                            <Bar data={getSalaryData} options={options}></Bar>
                             <h3>Highest Salary: {getSalaryStats()}</h3>
                         </div>
                     </>
